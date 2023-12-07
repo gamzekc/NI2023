@@ -8,7 +8,7 @@ import { QuestionnaireComponent } from './questionnaire/questionnaire.component'
 
 export const routes: Routes = [
     { path : '/', component: AccueilComponent},
-    { path : '/questionnaire:idTheme', component: QuestionnaireComponent},
+    { path : '/questionnaire/:idTheme', component: QuestionnaireComponent},
     { path: '**', component: PageNotFoundComponent}
 ];
 
