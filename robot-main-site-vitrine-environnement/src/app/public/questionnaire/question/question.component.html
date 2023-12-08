@@ -1,9 +1,9 @@
 <h1>{{idQuestion+1}} / {{ nbrQuestion+1}}</h1>
 <div class="conteneur_question">
     <div class="question">
-        <div class="question_entete">{{question?.question}}</div>
-        <p *ngIf="!question?.multiselect" class="indication">* Une seule réponse possible</p>
-        <p *ngIf="question?.multiselect" class="indication">* Plusieurs réponses sont possibles</p>
+        <div class="question_entete"><span *ngIf="!resultatFinal ">{{question?.question}}</span></div>
+        <p *ngIf="!resultatFinal &&!question?.multiselect" class="indication">* Une seule réponse possible</p>
+        <p *ngIf="!resultatFinal &&question?.multiselect" class="indication">* Plusieurs réponses sont possibles</p>
         <div class="conteneur_proposition">
             <div *ngIf="!resultatFinal && response1 == false && !resultat" class="reponseQuestion" (click)="select(1)">{{question?.prop1}}</div>
             <div *ngIf="!resultatFinal && response1 == true && !resultat" class="reponseQuestionSelect" (click)="select(1)">{{question?.prop1}}</div>
@@ -25,7 +25,7 @@
             
             <button *ngIf="!resultatFinal &&!resultat" class="btn_valider" (click)="validate()">Valider</button>
             <div><button *ngIf="!resultatFinal &&resultat" class="btn_suivant" (click)="nextQuestion()">Suivant</button></div>
-            <h1 *ngIf="resultatFinal" style="text-align: center; width:100%; ">Résultat final : {{nbrBonneReponse}} / {{ nbrQuestion}}</h1>
+            <h1 *ngIf="resultatFinal" style="text-align: center; width:100%; ">Résultat final : {{nbrBonneReponse}} / {{ nbrQuestion+1}}</h1>
         </div>
     </div>
 </div>

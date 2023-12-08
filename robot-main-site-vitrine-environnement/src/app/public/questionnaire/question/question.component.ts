@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { JsonService } from '../../../json.service';
 import { MessageService } from 'primeng/api';
+import { ActivatedRoute } from '@angular/router';
 interface Question {
   id : number, 
   question: string, 
@@ -29,7 +30,7 @@ interface Theme {
 })
 export class QuestionComponent implements OnInit{
 
-  constructor(private jsonService : JsonService, private messageService : MessageService){}
+  constructor(private jsonService : JsonService,private route: ActivatedRoute, private messageService : MessageService){}
   theme : Theme | undefined; 
   nbrQuestion : number = 0;
   nbrBonneReponse : number = 0;
@@ -47,9 +48,15 @@ export class QuestionComponent implements OnInit{
   verif4 : boolean = false;
 
   ngOnInit(): void {
-    this.theme = this.jsonService.getTheme(0);
-    this.question = this.theme.questions[this.idQuestion]; 
-    this.nbrQuestion = this.theme.questions.length-1;
+    this.route.params.subscribe(params => {
+      this.theme = this.jsonService.getTheme(+params['idTheme']);
+      this.question = this.theme.questions[this.idQuestion]; 
+      this.nbrQuestion = this.theme.questions.length-1;
+   });
+
+
+
+
   }
 
 
