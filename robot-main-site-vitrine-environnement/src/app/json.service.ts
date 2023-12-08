@@ -37,8 +37,11 @@ export class JsonService {
    }
 
    public getTheme(id: number):Theme{
-    console.log(this.themes);
-    return this.themes[id];;
+    return this.themes[id];
+   }
+
+   public getThemes():Theme[]{
+    return this.themes;
    }
 
 }
