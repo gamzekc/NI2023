@@ -1,0 +1,5 @@
+.centre_page{
+    background-color: red;
+    width: 100%;
+    height:calc(100% - 75px) !important;
+}
