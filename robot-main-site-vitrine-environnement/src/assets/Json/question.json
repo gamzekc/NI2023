@@ -1,3 +1,4 @@
+
 {
     "question": [
     {
@@ -21,29 +22,35 @@
     {
         "Id":"2",
         "Theme":"Consomation electrique",
-        "Description":"La consommation électrique est généralement mesurée en watts (W) ou en kilowatts (kW). L'unité de mesure standard pour l'énergie électrique sur une période donnée est le kilowattheure (kWh)."
+        "Description":"La consommation électrique est généralement mesurée en watts (W) ou en kilowatts (kW). L'unité de mesure standard pour l'énergie électrique sur une période donnée est le kilowattheure (kWh)...", 
+        "quest":"Connais-tu ton impacte écologique sur ton énergie que tu utilises ? "
     },
     {
         "Id":"3",
         "Theme":"Technologie et innovation",
-        "Description":"male"
+        "Description":"La technologie englobe l'ensemble des connaissances, des compétences, des outils, des processus et des techniques utilisés pour créer, fabriquer et utiliser des biens et des services...",
+        "quest":"Penses-tu que la technologies pourra améliorer nos impactes écologiques?"
     },
 
     {
         "Id":"4",
-        "Theme":"Jackson",
-        "Description":"male"
+        "Theme":"Education environnementale",
+        "Description":"L'éducation environnementale est un processus d'apprentissage qui vise à développer la conscience et la compréhension des enjeux environnementaux, à encourager l'engagement dans la résolution des problèmes écologiques...",
+        "question":"L'éducation et l'environnement sont-ils compatible?"
     },
     {
         "Id":"5",
-        "Theme":"Jackson",
-        "Description":"male"
+        "Theme":"Recyclage",
+        "Description":"Les appareils électroniques sont démontés pour récupérer les composants réutilisables tels que les processeurs, les cartes mères, les disques durs, etc.",
+        "question": "Recycles tu tes appareils électroniques?"
     },
     {
         "Id":"6",
-        "Theme":"Jackson",
-        "Description":"male"
+        "Theme":"Le nucléaire",
+        "Description":"L'énergie nucléaire fait référence à l'énergie libérée lors de réactions nucléaires, généralement dans des réacteurs nucléaires, pour produire de la chaleur. Cette chaleur est ensuite utilisée pour générer de l'électricité.",
+        "question":" Le nucléaire est il une solution contre le dérèglement climatique?"
     }
 
-    ]
+    ],
+    "compilerOptions": {  "resolveJsonModule": true, "esModuleInterop": true } 
 }
