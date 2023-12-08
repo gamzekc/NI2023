@@ -101,17 +101,17 @@
                 "prop1":"Non, car le pétrole est de moins en moins présent rendant notre expension plus compliqué",
                 "prop2":"Oui grace a une technologie toujours plus fructueuse",
                 "prop3":"Non car les ressources pouvant généré de l'énergie sont de plus en plus rare",
-                "prop4":"",
+                "prop4":"Non, on le voit grâce à l'inflation qui est toujours de plus en plus croissant sur l'energie",
                 "correcte":[1,2]
             },
             {
                 "id":4, 
-                "question":"", 
+                "question":"Notre consomation éléctrique annuel augmente de", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
+                "prop1":"2%",
+                "prop2":"5%",
+                "prop3":"7%",
+                "prop4":"10%",
                 "correcte":[1,2]
             }
         ]
@@ -124,53 +124,53 @@
         "questions": [
             {
                 "id":0, 
-                "question":"Big data contribue aux émissions de gaz à effet de serre?", 
+                "question":"Les voiture éléctrique sont elle une bonne idée?", 
                 "multiselect":true, 
-                "prop1":"Non, puisque les données sont stockées en format numérique sur Internet, c'est donc très écologique.",
-                "prop2":"Oui, car les données sont stockées sur des serveurs et les serveurs sont alimentés en énergie",
-                "prop3":"Non car une donnée n'a pas de poids en tant que telle, donc ça ne consomme pas tant d'énergie",
-                "prop4":"Oui, car une multitude de données peut finir par être extremement lourd en octet et donc en stockage",
-                "correcte":[1,4]
+                "prop1":"Oui, car l'électricité peut être générer de façons renouvelable.",
+                "prop2":"Non, car les batterie des voiture sont autement inflamable",
+                "prop3":"Non car La production des batterie sont trop polluente à cause de leur minéreau et de leur durée de vie",
+                "prop4":"Oui, car les voiture éléctrique permete de perdre du poid",
+                "correcte":[1,3]
             },
             {
                 "id":1, 
-                "question":"Les mails sont ils consomateurs d'énergies?", 
+                "question":"Pourquoi recycler le matériel éléctronique?", 
                 "multiselect":true, 
-                "prop1":"Non, car les mails sont stockées sur ma machine et non sur un réseau",
-                "prop2":"Oui, puisqu'ils sont stockées sur les serveurs d'un service",
-                "prop3":"Non, parce que je ne paie pas plus l'éléctricité quand j'en reçois",
-                "prop4":"Non, car les mails se suppriment par eux même.",
-                "correcte":[2]
-            },
-            {
-                "id":2, 
-                "question":"Lorsqu'un utilisateur poste une photo sur Instagram est il déjà en train de contribuer au réchaufement climatique", 
-                "multiselect":true, 
-                "prop1":"Oui, car les postes instagrammes sont stockées sur des serveurs",
-                "prop2":"Non car Instagramme de conserve pas nos informations",
-                "prop3":"Non car toutes nos données finissent par être perdu au bout d'un certain temps comme la story",
-                "prop4":"Non car ils sont stockées sur la machine utilisateur, Instagramme ne fait que récupérer le lien",
-                "correcte":[1]
-            },
-            {
-                "id":3, 
-                "question":"Les big data ne consomment que de l'energie électrique, donc pas d'energie fossile", 
-                "multiselect":true, 
-                "prop1":"Bien sur car l'energie electrique est produite qu'à partir des centrales nucléaires et non thermiques",
-                "prop2":"Les Bigs datas ne consomment pas d'énergies",
-                "prop3":"l'energie utilisée par les big data risque de doublé en 2025 donc le taux de co2 éjecter risque de doubler également",
-                "prop4":"L'énergie utilisée par les big data représentent 4% des emissions de CO2 par an dans le monde",
+                "prop1":"Pour faire du bien à la planète",
+                "prop2":"Pour détruire ces equipement de façons plus écologique",
+                "prop3":"Pour embécher l'invation robotique",
+                "prop4":"Pour récupérer les matériau et les réutiliser",
                 "correcte":[4]
             },
             {
-                "id":4, 
-                "question":"", 
+                "id":2, 
+                "question":"Que ce passe-t-il lors de l'utilisation du le climatiseur", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
+                "prop1":"La pièce ce refroidi et il fait bon en été",
+                "prop2":"Je réchaufe un peut plus la planète",
+                "prop3":"J'aide les ours polaire à recréer leur banquise",
+                "prop4":"dehors il fait plus chaud qu'à l'interrieur",
+                "correcte":[2]
+            },
+            {
+                "id":3, 
+                "question":"comment peut nous aider l'ia?", 
+                "multiselect":true, 
+                "prop1":"à rien de toute façons ça va volé le boulot de tout le monde",
+                "prop2":"ia c'est quoi?",
+                "prop3":"à traité les megadonné récolter et à les présentées",
+                "prop4":"à nous indiquer quand nous consomon trop et nous donnée des astuces",
+                "correcte":[3,4]
+            },
+            {
+                "id":4, 
+                "question":"Es ce une bonne idée de faire rentrée du matériel numérique dans les écoles?", 
+                "multiselect":true, 
+                "prop1":"Je ne sais pas",
+                "prop2":"Non,car ça va rendre plus bête nos enfants",
+                "prop3":"Oui, car il auront une meilleur connaissance du numérique",
+                "prop4":"Non, car les dépence énéergétique sont plus importante",
+                "correcte":[4]
             }
         ]
     
@@ -183,53 +183,53 @@
         "questions": [
             {
                 "id":0, 
-                "question":"", 
+                "question":"Faut il éteindre la lumière quand je quite une pièce", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
+                "prop1":"Oui, car comme ça je réduit ma consomation éléctrique",
+                "prop2":"à quoi ça sert",
+                "prop3":"Non il faut aussi les laisser allumer de jour",
                 "prop4":"",
-                "correcte":[1,2]
+                "correcte":[1]
             },
             {
                 "id":1, 
-                "question":"", 
+                "question":"Existe-il une alternative à notre cuisine actuel", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
+                "prop1":"Non, rien ne vaut ma gazinière",
+                "prop2":"Non, Notre cuisine et au sommet de la technologie",
+                "prop3":"Oui, nous pouvons utiliser des fours solaires",
+                "prop4":"Oui, nous pouvons toujours manger de la viande fraiche",
+                "correcte":[3]
             },
             {
                 "id":2, 
-                "question":"", 
+                "question":"Est-ce une bonne idée de manger de la viande", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
+                "prop1":"Oui, ça nous apporte les nutriments qu'il nous manque",
+                "prop2":"Non, nous en avons pas besoin",
+                "prop3":"Je ne sais pas, ça coute trop chère",
+                "prop4":"Si je ne peut plus en manger je mangerai des insectes",
+                "correcte":[2]
             },
             {
                 "id":3, 
-                "question":"", 
+                "question":"Faut il laisser les adaptateurs secteur branchés en permanence dans le vide", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
+                "prop1":"Oui, ils se coupent quand on débranche nos appareils",
+                "prop2":"Non, ils continuent à fonctionner sinon",
+                "prop3":"Osef, c'est pas moi qui paye l'électricité",
+                "prop4":"Oui, ca permet de gagner de l'énergie",
+                "correcte":[2]
             },
             {
                 "id":4, 
-                "question":"", 
+                "question":"Le charbon, c'est l'avenir ?", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
+                "prop1":"Nous avons besoin des énergies fossiles pour vivre",
+                "prop2":"On veut allumer nos barbecues",
+                "prop3":"Non, on tient à notre couche d'ozone",
+                "prop4":"Laissez nos emplois tranquille",
+                "correcte":[3]
             }
         ]
     
@@ -241,111 +241,53 @@
         "questions": [
             {
                 "id":0, 
-                "question":"", 
+                "question":"Comment doit on se débarrasser de nos piles ?", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
+                "prop1":"On les jete dans la poubelle noir",
+                "prop2":"On les jete dans la poubelle jaune",
+                "prop3":"On balance ça dans la rue",
+                "prop4":"On les jette dans un centre spécialisé",
+                "correcte":[4]
             },
             {
                 "id":1, 
-                "question":"", 
+                "question":"Que faire de son ordinateur trop vieux", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
+                "prop1":"Le filer à une association sous linux",
+                "prop2":"Le jeter à la décheterie",
+                "prop3":"Le filer à de la famille",
+                "prop4":"S'en servir de ballon de foot",
+                "correcte":[1,3]
             },
             {
                 "id":2, 
-                "question":"", 
+                "question":"Quels sont les déchets à mettre dans la poubelle jaune", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
+                "prop1":"Rien",
+                "prop2":"Tout",
+                "prop3":"Ca dépend des régions, mais conerne de plus en plus de déchets",
+                "prop4":"Juste les verres et plastiques",
+                "correcte":[3]
             },
             {
                 "id":3, 
-                "question":"", 
+                "question":"Les déchets produits par les centrales nucléaires sont ils recyclables ?", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
+                "prop1":"Oui, et on peut les réutiliser dans les centrales ensuite",
+                "prop2":"Oui, on s'en sert ensuite pour fabriquer nos maisons",
+                "prop3":"Non, on les détruit",
+                "prop4":"Non, on les évacuent",
+                "correcte":[4]
             },
             {
                 "id":4, 
-                "question":"", 
+                "question":"Que faire des ses feuilles de papier ?", 
                 "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
-            }
-        ]
-    
-    },
-    {
-        "Id":"6",
-        "Theme":"Le nucléaire",
-        "Description":"L'énergie nucléaire fait référence à l'énergie libérée lors de réactions nucléaires, généralement dans des réacteurs nucléaires, pour produire de la chaleur. Cette chaleur est ensuite utilisée pour générer de l'électricité.",
-        "questions": [
-            {
-                "id":0, 
-                "question":"", 
-                "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
-            },
-            {
-                "id":1, 
-                "question":"", 
-                "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
-            },
-            {
-                "id":2, 
-                "question":"", 
-                "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
-            },
-            {
-                "id":3, 
-                "question":"", 
-                "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
-            },
-            {
-                "id":4, 
-                "question":"", 
-                "multiselect":true, 
-                "prop1":"",
-                "prop2":"",
-                "prop3":"",
-                "prop4":"",
-                "correcte":[1,2]
+                "prop1":"En faire du papier recyclé",
+                "prop2":"Les brûler dans son jardin",
+                "prop3":"Les jeter dans la rue",
+                "prop4":"Les empiler dans sa cave pendant 40 ans",
+                "correcte":[1]
             }
         ]
     
