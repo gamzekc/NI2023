@@ -18,7 +18,7 @@ export class QuestionCardComponent implements OnInit{
   card_question: any = [];
   
  
-  private jsonUrl = 'C:\JeuDechec\NI202\robot-main-site-vitrine-environnement\src\assets\Json\question.json';
+  private jsonUrl = '../../../src/assets/Json/question.json';
 
   constructor(private http: HttpClient) { }
  ngOnInit(): void {
@@ -26,6 +26,5 @@ export class QuestionCardComponent implements OnInit{
       this.card_question = data;
   });
   }
- 
 
 }
