@@ -34,8 +34,10 @@ export class QuestionComponent implements OnInit{
 
 
   ngOnInit(): void {
-    this.theme = this.jsonService.getTheme(1);
+    this.theme = this.jsonService.getTheme(0);
+    
     this.question = this.theme.questions[0]; 
+    console.log(this.question);
   }
   question : Question| undefined; 
   response1 : boolean = false;
