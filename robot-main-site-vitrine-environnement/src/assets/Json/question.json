@@ -8,6 +8,46 @@
         "questions": [
             {
                 "id":0, 
+                "question":"Big data contribue aux émissions de gaz à effet de serre?", 
+                "multiselect":true, 
+                "prop1":"Non, puisque les données sont stockées en format numérique sur Internet, c'est donc très écologique.",
+                "prop2":"Oui, car les données sont stockées sur des serveurs et les serveurs sont alimentés en énergie",
+                "prop3":"Non car une donnée n'a pas de poids en tant que telle, donc ça ne consomme pas tant d'énergie",
+                "prop4":"Oui, car une multitude de données peut finir par être extremement lourd en octet et donc en stockage",
+                "correcte":[1,4]
+            },
+            {
+                "id":1, 
+                "question":"Les mails sont ils consomateurs d'énergies?", 
+                "multiselect":true, 
+                "prop1":"Non, car les mails sont stockées sur ma machine et non sur un réseau",
+                "prop2":"Oui, puisqu'ils sont stockées sur les serveurs d'un service",
+                "prop3":"Non, parce que je ne paie pas plus l'éléctricité quand j'en reçois",
+                "prop4":"Non, car les mails se suppriment par eux même.",
+                "correcte":[2]
+            },
+            {
+                "id":2, 
+                "question":"Lorsqu'un utilisateur poste une photo sur Instagram est il déjà en train de contribuer au réchaufement climatique", 
+                "multiselect":true, 
+                "prop1":"Oui, car les postes instagrammes sont stockées sur des serveurs",
+                "prop2":"Non car Instagramme de conserve pas nos informations",
+                "prop3":"Non car toutes nos données finissent par être perdu au bout d'un certain temps comme la story",
+                "prop4":"Non car ils sont stockées sur la machine utilisateur, Instagramme ne fait que récupérer le lien",
+                "correcte":[1]
+            },
+            {
+                "id":3, 
+                "question":"Les big data ne consomment que de l'energie électrique, donc pas d'energie fossile", 
+                "multiselect":true, 
+                "prop1":"Bien sur car l'energie electrique est produite qu'à partir des centrales nucléaires et non thermiques",
+                "prop2":"Les Bigs datas ne consomment pas d'énergies",
+                "prop3":"l'energie utilisée par les big data risque de doublé en 2025 donc le taux de co2 éjecter risque de doubler également",
+                "prop4":"L'énergie utilisée par les big data représentent 4% des emissions de CO2 par an dans le monde",
+                "correcte":[4]
+            },
+            {
+                "id":4, 
                 "question":"", 
                 "multiselect":true, 
                 "prop1":"",
@@ -23,32 +63,292 @@
         "Id":"2",
         "Theme":"Consomation electrique",
         "Description":"La consommation électrique est généralement mesurée en watts (W) ou en kilowatts (kW). L'unité de mesure standard pour l'énergie électrique sur une période donnée est le kilowattheure (kWh)...", 
-        "quest":"Connais-tu ton impacte écologique sur ton énergie que tu utilises ? "
+        "questions": [
+            {
+                "id":0, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":1, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":2, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":3, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":4, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            }
+        ]
+    
     },
     {
         "Id":"3",
         "Theme":"Technologie et innovation",
         "Description":"La technologie englobe l'ensemble des connaissances, des compétences, des outils, des processus et des techniques utilisés pour créer, fabriquer et utiliser des biens et des services...",
-        "quest":"Penses-tu que la technologies pourra améliorer nos impactes écologiques?"
+        "questions": [
+            {
+                "id":0, 
+                "question":"Big data contribue aux émissions de gaz à effet de serre?", 
+                "multiselect":true, 
+                "prop1":"Non, puisque les données sont stockées en format numérique sur Internet, c'est donc très écologique.",
+                "prop2":"Oui, car les données sont stockées sur des serveurs et les serveurs sont alimentés en énergie",
+                "prop3":"Non car une donnée n'a pas de poids en tant que telle, donc ça ne consomme pas tant d'énergie",
+                "prop4":"Oui, car une multitude de données peut finir par être extremement lourd en octet et donc en stockage",
+                "correcte":[1,4]
+            },
+            {
+                "id":1, 
+                "question":"Les mails sont ils consomateurs d'énergies?", 
+                "multiselect":true, 
+                "prop1":"Non, car les mails sont stockées sur ma machine et non sur un réseau",
+                "prop2":"Oui, puisqu'ils sont stockées sur les serveurs d'un service",
+                "prop3":"Non, parce que je ne paie pas plus l'éléctricité quand j'en reçois",
+                "prop4":"Non, car les mails se suppriment par eux même.",
+                "correcte":[2]
+            },
+            {
+                "id":2, 
+                "question":"Lorsqu'un utilisateur poste une photo sur Instagram est il déjà en train de contribuer au réchaufement climatique", 
+                "multiselect":true, 
+                "prop1":"Oui, car les postes instagrammes sont stockées sur des serveurs",
+                "prop2":"Non car Instagramme de conserve pas nos informations",
+                "prop3":"Non car toutes nos données finissent par être perdu au bout d'un certain temps comme la story",
+                "prop4":"Non car ils sont stockées sur la machine utilisateur, Instagramme ne fait que récupérer le lien",
+                "correcte":[1]
+            },
+            {
+                "id":3, 
+                "question":"Les big data ne consomment que de l'energie électrique, donc pas d'energie fossile", 
+                "multiselect":true, 
+                "prop1":"Bien sur car l'energie electrique est produite qu'à partir des centrales nucléaires et non thermiques",
+                "prop2":"Les Bigs datas ne consomment pas d'énergies",
+                "prop3":"l'energie utilisée par les big data risque de doublé en 2025 donc le taux de co2 éjecter risque de doubler également",
+                "prop4":"L'énergie utilisée par les big data représentent 4% des emissions de CO2 par an dans le monde",
+                "correcte":[4]
+            },
+            {
+                "id":4, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            }
+        ]
+    
     },
 
     {
         "Id":"4",
         "Theme":"Education environnementale",
         "Description":"L'éducation environnementale est un processus d'apprentissage qui vise à développer la conscience et la compréhension des enjeux environnementaux, à encourager l'engagement dans la résolution des problèmes écologiques...",
-        "question":"L'éducation et l'environnement sont-ils compatible?"
+        "questions": [
+            {
+                "id":0, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":1, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":2, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":3, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":4, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            }
+        ]
+    
     },
     {
         "Id":"5",
         "Theme":"Recyclage",
         "Description":"Les appareils électroniques sont démontés pour récupérer les composants réutilisables tels que les processeurs, les cartes mères, les disques durs, etc.",
-        "question": "Recycles tu tes appareils électroniques?"
+        "questions": [
+            {
+                "id":0, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":1, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":2, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":3, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":4, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            }
+        ]
+    
     },
     {
         "Id":"6",
         "Theme":"Le nucléaire",
         "Description":"L'énergie nucléaire fait référence à l'énergie libérée lors de réactions nucléaires, généralement dans des réacteurs nucléaires, pour produire de la chaleur. Cette chaleur est ensuite utilisée pour générer de l'électricité.",
-        "question":" Le nucléaire est il une solution contre le dérèglement climatique?"
+        "questions": [
+            {
+                "id":0, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":1, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":2, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":3, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            },
+            {
+                "id":4, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            }
+        ]
+    
     }
 
     ],
