@@ -6,7 +6,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-public',
   standalone: true,
-  imports: [ CommonModule,  RouterOutlet, RouterLink, RouterLinkActive, MenuComponent],
+  imports: [  RouterOutlet, RouterLink, RouterLinkActive, MenuComponent],
   templateUrl: './public.component.html',
   styleUrl: './public.component.css'
 })
