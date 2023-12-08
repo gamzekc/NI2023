@@ -160,11 +160,11 @@ line-height: normal;
 .carte_questionnaire{
 width: 376px;
 height: 191px;
+margin-left : 30px;
 flex-shrink: 0;
 border-radius: 30px;
 background: #FFF;
 box-shadow: 5px 5px 12px 0px rgba(0, 0, 0, 0.20);
-
 }
 
 .titre_questionnaire{
