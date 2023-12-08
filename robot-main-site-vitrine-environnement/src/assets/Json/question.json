@@ -1,3 +1,4 @@
+
 {
     "question": [
     {
@@ -29,14 +30,15 @@
         "Id":"5",
         "Theme":"Recyclage",
         "Description":"Les appareils électroniques sont démontés pour récupérer les composants réutilisables tels que les processeurs, les cartes mères, les disques durs, etc.",
-        "question": "Recycles tu tes appareils électroniques"
+        "question": "Recycles tu tes appareils électroniques?"
     },
     {
         "Id":"6",
         "Theme":"Le nucléaire",
         "Description":"L'énergie nucléaire fait référence à l'énergie libérée lors de réactions nucléaires, généralement dans des réacteurs nucléaires, pour produire de la chaleur. Cette chaleur est ensuite utilisée pour générer de l'électricité.",
-        "question":" Le nucléaire est il une solution contre le dérèglement climatique"
+        "question":" Le nucléaire est il une solution contre le dérèglement climatique?"
     }
 
-    ]
+    ],
+    "compilerOptions": {  "resolveJsonModule": true, "esModuleInterop": true } 
 }
