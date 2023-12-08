@@ -1,5 +1,7 @@
 .centre_page{
-    background-color: red;
+    position: absolute;
     width: 100%;
-    height:calc(100% - 75px) !important;
+    height:calc(100% - 75px) ;
+    display: flex;
+
 }

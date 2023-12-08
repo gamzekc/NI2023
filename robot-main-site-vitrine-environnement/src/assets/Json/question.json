@@ -3,7 +3,20 @@
     {
         "Id":"1",
         "Theme":"Big Data",
-        "Description":"Les big data impliquent des volumes massifs d'informations. Ces ensembles de données peuvent aller de plusieurs térabits à plusieurs pétabits (ou plus) en fonction de la nature de la source de données… "
+        "Description":"Les big data impliquent des volumes massifs d'informations. Ces ensembles de données peuvent aller de plusieurs térabits à plusieurs pétabits (ou plus) en fonction de la nature de la source de données… ",
+        "questions": [
+            {
+                "id":0, 
+                "question":"", 
+                "multiselect":true, 
+                "prop1":"",
+                "prop2":"",
+                "prop3":"",
+                "prop4":"",
+                "correcte":[1,2]
+            }
+        ]
+    
     },
     {
         "Id":"2",
