@@ -16,6 +16,10 @@
 
 .question_entete{
     background-color: #15481F;
+    color:white; 
+   padding-left: 10px;
+   padding-top: 10px;
+   font-size: 1.2em;
     height: 50px;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -49,6 +53,29 @@
 }
 
 
+.reponseQuestionTrue{
+    width:300px; 
+    height: 150px;
+    background-color: rgb(230, 255, 213);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    cursor: none;
+}
+
+.reponseQuestionFalse{
+    width:300px; 
+    height: 150px;
+    background-color: rgb(255, 203, 203);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 0, 0);
+    cursor: none;
+}
+
+
 .reponseQuestionSelect{
     width:300px; 
     height: 150px;
@@ -77,6 +104,25 @@
     border-color: #15481F;
     color:white;
     background-color: #15481F;
+
+}
+
+.btn_suivant{
+    width: 700px;
+    padding-block: 5px;
+    border-radius: 8px;
+    border-color: #007cb1;
+    color:#007cb1;
+    border-style: solid;
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.btn_suivant:hover{
+    border-color: #007cb1;
+    color:white;
+    background-color: #007cb1;
 
 }
 
