@@ -4,7 +4,7 @@
         <p *ngIf="!multiselect" class="indication">* Une seule réponse possible</p>
         <p *ngIf="multiselect" class="indication">* Plusieurs réponses sont possibles</p>
         <div class="conteneur_proposition">
-            <div *ngIf="response1==false" class="reponseQuestion" (click)="select(1)"></div>
+            <div *ngIf="response1==false" class="reponseQuestion" (click)="select(1)">{{question?.prop1}}</div>
             <div *ngIf="response1 == true" class="reponseQuestionSelect" (click)="select(1)"></div>
             <div *ngIf="response2 == true" class="reponseQuestionSelect" (click)="select(2)"></div>
             <div *ngIf="response2 == false" class="reponseQuestion" (click)="select(2)"></div>
