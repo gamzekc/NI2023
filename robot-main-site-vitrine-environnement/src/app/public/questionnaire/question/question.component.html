@@ -1,18 +1,31 @@
+<h1>{{idQuestion+1}} / {{ nbrQuestion+1}}</h1>
 <div class="conteneur_question">
     <div class="question">
-        <div class="question_entete"></div>
-        <p *ngIf="!multiselect" class="indication">* Une seule réponse possible</p>
-        <p *ngIf="multiselect" class="indication">* Plusieurs réponses sont possibles</p>
+        <div class="question_entete"><span *ngIf="!resultatFinal ">{{question?.question}}</span></div>
+        <p *ngIf="!resultatFinal &&!question?.multiselect" class="indication">* Une seule réponse possible</p>
+        <p *ngIf="!resultatFinal &&question?.multiselect" class="indication">* Plusieurs réponses sont possibles</p>
         <div class="conteneur_proposition">
-            <div *ngIf="response1==false" class="reponseQuestion" (click)="select(1)">{{question?.prop1}}</div>
-            <div *ngIf="response1 == true" class="reponseQuestionSelect" (click)="select(1)"></div>
-            <div *ngIf="response2 == true" class="reponseQuestionSelect" (click)="select(2)"></div>
-            <div *ngIf="response2 == false" class="reponseQuestion" (click)="select(2)"></div>
-            <div *ngIf="response3 == false" class="reponseQuestion" (click)="select(3)"></div>
-            <div *ngIf="response3 == true" class="reponseQuestionSelect" (click)="select(3)"></div>
-            <div *ngIf="response4 == false" class="reponseQuestion" (click)="select(4)"></div>
-            <div *ngIf="response4 == true" class="reponseQuestionSelect" (click)="select(4)"></div>
-            <button class="btn_valider">Valider</button>
+            <div *ngIf="!resultatFinal && response1 == false && !resultat" class="reponseQuestion" (click)="select(1)">{{question?.prop1}}</div>
+            <div *ngIf="!resultatFinal && response1 == true && !resultat" class="reponseQuestionSelect" (click)="select(1)">{{question?.prop1}}</div>
+            <div *ngIf="!resultatFinal && response2 == true && !resultat" class="reponseQuestionSelect" (click)="select(2)">{{question?.prop2}}</div>
+            <div *ngIf="!resultatFinal && response2 == false && !resultat" class="reponseQuestion" (click)="select(2)">{{question?.prop2}}</div>
+            <div *ngIf="!resultatFinal && response3 == false && !resultat" class="reponseQuestion" (click)="select(3)">{{question?.prop3}}</div>
+            <div *ngIf="!resultatFinal && response3 == true && !resultat" class="reponseQuestionSelect" (click)="select(3)">{{question?.prop3}}</div>
+            <div *ngIf="!resultatFinal && response4 == false && !resultat" class="reponseQuestion" (click)="select(4)">{{question?.prop4}}</div>
+            <div *ngIf="!resultatFinal && response4 == true && !resultat" class="reponseQuestionSelect" (click)="select(4)">{{question?.prop4}}</div>
+
+            <div *ngIf="!resultatFinal && verif1  && resultat" class="reponseQuestionTrue" >{{question?.prop1}}</div>
+            <div *ngIf="!resultatFinal && !verif1 && resultat " class="reponseQuestionFalse" >{{question?.prop1}}</div>
+            <div *ngIf="!resultatFinal && verif2 && resultat " class="reponseQuestionTrue" >{{question?.prop2}}</div>
+            <div *ngIf="!resultatFinal && !verif2 && resultat " class="reponseQuestionFalse" >{{question?.prop2}}</div>
+            <div *ngIf="!resultatFinal && verif3 && resultat " class="reponseQuestionTrue" >{{question?.prop3}}</div>
+            <div *ngIf="!resultatFinal && !verif3 && resultat " class="reponseQuestionFalse" >{{question?.prop3}}</div>
+            <div *ngIf="!resultatFinal && verif4 && resultat " class="reponseQuestionTrue" >{{question?.prop4}}</div>
+            <div *ngIf="!resultatFinal && !verif4 && resultat " class="reponseQuestionFalse" >{{question?.prop4}}</div>
+            
+            <button *ngIf="!resultatFinal &&!resultat" class="btn_valider" (click)="validate()">Valider</button>
+            <div><button *ngIf="!resultatFinal &&resultat" class="btn_suivant" (click)="nextQuestion()">Suivant</button></div>
+            <h1 *ngIf="resultatFinal" style="text-align: center; width:100%; ">Résultat final : {{nbrBonneReponse}} / {{ nbrQuestion+1}}</h1>
         </div>
     </div>
 </div>

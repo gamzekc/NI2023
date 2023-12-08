@@ -26,9 +26,9 @@ export class JsonService {
   constructor(private http: HttpClient) {
    
     this.http.get<Theme[]>('./assets/Json/question.json').subscribe(
-      (data: Theme[]) => {
-        this.themes = data;
-        console.log('Thèmes chargés avec succès:', this.themes);
+      (data: any) => {
+        this.themes = data.question;
+        
       },
       (error) => {
         console.error('Erreur lors du chargement des données JSON :', error);
@@ -38,7 +38,7 @@ export class JsonService {
 
    public getTheme(id: number):Theme{
     console.log(this.themes);
-    return this.themes[id];
+    return this.themes[id];;
    }
 
 }
